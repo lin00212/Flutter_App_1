@@ -1,0 +1,45 @@
+name: flutter_class_project_1
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/DonaldTrump.webp
+    - assets/images/DonaldTruck.webp
+    - assets/images/DonaldWink.webp
+
+  fonts:
+    - family: Doto
+      fonts:
+        - asset: assets/fonts/Doto-Regular.ttf
+        - asset: assets/fonts/Doto-Bold.ttf
+        - asset: assets/fonts/Doto-Thin.ttf
+    - family: Exo2
+      fonts:
+        - asset: assets/fonts/Exo_2/static/Exo2-Regular.ttf
+        - asset: assets/fonts/Exo_2/static/Exo2-Bold.ttf
+        - asset: assets/fonts/Exo_2/static/Exo2-Thin.ttf
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato/Lato-Regular.ttf
+        - asset: assets/fonts/Lato/Lato-Bold.ttf
+        - asset: assets/fonts/Lato/Lato-Thin.ttf
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik/static/Rubik-Regular.ttf
+        - asset: assets/fonts/Rubik/static/Rubik-Bold.ttf
+        - asset: assets/fonts/Rubik/static/Rubik-Italic.ttf
